@@ -205,6 +205,8 @@ result = extract_from_text(text, api_key="your-key")
 
 ### Model Selection
 
+> **⚠️ Note:** Model names and availability change frequently. The models listed below were current as of December 2024. Before running, check the latest available models at [Google AI Studio](https://aistudio.google.com) or the [Gemini API docs](https://ai.google.dev/gemini-api/docs/models/gemini). Experimental/preview models may be removed or renamed, and free tier quotas can change.
+
 **Gemini Models** (Recommended)
 ```bash
 python end_to_end_example.py --model gemini-3-flash-preview  # Fast, latest (preview)
